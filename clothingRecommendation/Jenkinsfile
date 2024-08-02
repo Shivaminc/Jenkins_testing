@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         PHP_VERSION = '7.4'
-        DEPLOY_PATH = '/var/www/html/my-php-project'
+        DEPLOY_PATH = '/var/www/html/'
     }
 
     stages {
